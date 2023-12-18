@@ -15,7 +15,7 @@ jobs:
       run: |
         cd news-on-earth
         yarn install
-        yarn start
+        yarn build
 
     - name: Deploy to Cloudflare
       uses: cloudflare/wrangler-action@1.3.0
