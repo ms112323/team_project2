@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Install & Build
+    - name: Install &  Build
       run: |
         cd news-on-earth
         yarn install
