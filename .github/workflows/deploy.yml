@@ -23,4 +23,7 @@ jobs:
         accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         projectName: "team-project"
-        directory: ./build
+        directory: ./news-on-earth/build
+
+
+        
